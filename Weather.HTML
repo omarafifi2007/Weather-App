@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <link rel="icon" href="clear.png">
+        <link rel="stylesheet" href="Weather.CSS">
+        <meta name="Description" content="Scrolling Earth"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="Scrolling, Earth, Planet, Stars">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="Card">
+            <div class="Search">
+                <input type="text" placeholder="Enter City Name" spellcheck="false">
+                <button><img src="./search.png" alt=""></button>
+            </div>
+            <div class="Weather">
+                <img src="./clear.png" class="WeatherIcon">
+                <h1 class="Temp">---</h1>
+                <h2 class="City">---</h2>
+                <div class="Details">
+                    <div class="Col">
+                        <img src="./humidity.png" alt="">
+                        <div>
+                            <p class="Humidity">---</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="Col">
+                        <img src="./wind.png" alt="">
+                        <div>
+                            <p class="Wind">---</p>
+                            <p>Wind</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./Weather.JS"></script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: #222;
+}
+.Card
+{
+    width: 70%;
+    color: #fff;
+    max-width: 470%;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 100px auto 0;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+}
+.Search
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Search input
+{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    color: #555;
+    font-size: 30px;
+    margin: 16px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: #ebfffc;
+}
+.Search button
+{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #ebfffc;
+}
+.Search button img
+{
+    width: 30px;
+}
+.WeatherIcon
+{
+    width: 170px;
+    margin-top: 30px;
+}
+.Weather h1
+{
+    font-size: 80px;
+    font-weight: 500;
+}
+.Weather h2
+{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.Details
+{
+    display: flex;
+    padding: 0 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Col
+{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.Col img
+{
+    width: 40px;
+    margin: 10px;
+}
+.Humidity , .Wind
+{
+    font-size: 28px;
+    margin-top: -6px;
+}
